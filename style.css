@@ -300,3 +300,8 @@ body {
 .menu-card h3 {
     font-size: 16px;
 }
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+}
+
