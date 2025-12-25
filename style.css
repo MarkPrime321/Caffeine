@@ -211,3 +211,92 @@ body {
         animation: none;
     }
 }
+/* MENU SECTION */
+.menu-section {
+    padding: 80px;
+    background: #e3c19c;
+    color: #1a120b;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.menu-desc {
+    font-size: 14px;
+    margin-bottom: 50px;
+    color: #4b3621;
+}
+
+/* SLIDER */
+.menu-slider {
+    overflow: hidden;
+}
+
+.menu-track {
+    display: flex;
+    gap: 30px;
+    animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-60%);
+    }
+}
+/* MENU PAGE */
+.menu-page {
+    padding: 80px 40px;
+    background: #e3c19c;
+    color: #1a120b;
+}
+
+.menu-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* HORIZONTAL SCROLL */
+.menu-scroll {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    scroll-snap-type: x mandatory;
+}
+
+.menu-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.menu-scroll::-webkit-scrollbar-thumb {
+    background: #1a120b;
+    border-radius: 10px;
+}
+
+/* COFFEE CARD */
+.menu-card {
+    min-width: 220px;
+    background: #1a120b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    scroll-snap-align: start;
+    text-align: center;
+}
+
+.menu-card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.menu-card h3 {
+    font-size: 16px;
+}
