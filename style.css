@@ -16,7 +16,7 @@ body {
     display: flex;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 12px;
-    margin: 20px 40px; /* THIS is the key line */
+    margin: 20px 40px;
     justify-content: space-between;
     align-items: center;
     padding: 25px 80px;
@@ -132,11 +132,7 @@ body {
     width: 420px;
     max-width: 100%;
 }
-/* =======================
-   HERO ANIMATIONS ONLY
-   ======================= */
 
-/* Title: comes from bottom */
 .animate-title {
     animation: slideUp 1.2s ease-out forwards;
 }
@@ -306,5 +302,3 @@ body {
     text-decoration: none;
     color: inherit;
 }
-
-
